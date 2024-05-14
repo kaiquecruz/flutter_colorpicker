@@ -20,7 +20,7 @@ class ColorPicker extends StatefulWidget {
     this.enableAlpha = true,
     @Deprecated('Use empty list in [labelTypes] to disable label.') this.showLabel = true,
     this.labelTypes = const [ColorLabelType.rgb, ColorLabelType.hsv, ColorLabelType.hsl],
-    @Deprecated('Use Theme.of(context).textTheme.bodyText1 & 2 to alter text style.') this.labelTextStyle,
+    @Deprecated('Use Theme.of(context).textTheme.bodyLarge & 2 to alter text style.') this.labelTextStyle,
     this.displayThumbColor = false,
     this.portraitOnly = false,
     this.colorPickerWidth = 300.0,
